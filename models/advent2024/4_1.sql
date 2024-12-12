@@ -1,6 +1,6 @@
 with rowns as (
 SELECT *, row_number() over() rown
-FROM "4_input"
+FROM {{ ref('4_input') }}
 ),
 
 unnested as (
