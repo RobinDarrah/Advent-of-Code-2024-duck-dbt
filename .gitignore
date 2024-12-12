@@ -5,3 +5,4 @@ inputs
 target
 .user.yml
 advent.duckdb
+Advent of Code 2024 duck dbt.code-workspace
